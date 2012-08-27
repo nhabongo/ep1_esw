@@ -1,0 +1,100 @@
+@CHARSET "US-ASCII";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: pink;
+}
+
+h1
+{
+	color:black;
+	text-align:center;
+}
+
+p
+{
+	font-family:"Times New Roman";
+	font-size:20px;
+}
+
+fieldset{
+	background: white;
+	padding: 20px;
+	border: 1px solid green;
+	left: 50%;
+	margin-left: -300px;
+	position: relative;
+	width: 600px;
+}
+
+#back{
+	position: absolute;
+	bottom: 10px;
+	left: 2px;
+}
+
+#inicio{
+	margin-left: auto;
+	margin-right auto;
+	margin-top: 250px;
+	position: relative;
+	text-align: center;
+	whidth: 80%;
+	
+}
+
+.item{
+	width: 50px;
+	
+}
+
+.buttonmizer{
+	background: white;
+	border:1px solid black;
+	cursor: default;
+    font:"Tahoma";
+    margin: 2px;
+	padding:5px;
+	text-decoration:none;
+	color: black;
+		
+}
+
+.buttonmizer:HOVER {
+	background: #eaeaea; 
+}
+
+.buttonmizer:ACTIVE {
+	background: white;
+	border: 2px solid green;
+	border-color: green;
+	color: green;
+	margin: 1px;
+}
+
+input.buttonmizer{
+	margin-top: 10px; 
+	padding: 2px;
+}
+
+input.buttonmizer:ACTIVE{
+	margin-top: 9px;
+}
+
+
+.bg{
+	position: fixed;
+	top: 100%;
+	left: 100%;
+	margin-left: -247px;
+	margin-top: -250px;
+	height: 283px;
+	width: 277px;
+	z-index: -1;
+	cursor: default;
+}
+
